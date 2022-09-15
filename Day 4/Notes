@@ -22,6 +22,9 @@ Git
       * merge           : to merge branches to main branch
       * branch -d       : to delete branch
 
+- Git Pull
+    - to get most recent updated files from repository
+
 
 - Git Conflicts
     * Git conflicts occurs when same file is being modified by more than one developers 
