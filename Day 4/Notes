@@ -10,6 +10,7 @@ Git
     * push            : to upload local repository to any emote repository (Pushing local repo to Github)
     * -help           : to see all possible commands
     * (Command) -help : to see all available options in any specific Command
+    * revert          : to undo changes from file and make new commit of that inverse content
 
 - Git BRANCH
     - Branch helps the developers to work on same projects at same time without affecting the main projects

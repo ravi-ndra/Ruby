@@ -4,6 +4,7 @@ Git commands
     - checkout
     - push
     - pull
+    - revert
     
 Git Conflicts
     - main reason of conflict occurence is modifying same directory/file 
