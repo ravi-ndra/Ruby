@@ -24,6 +24,11 @@ Git
 
 - Git Pull
     - to get most recent updated files from repository
+    - pull is combination of fetch and merge
+    - It is used to pull all changes from a remote repository into the branch you are working on
+      * git pull origin : to get all undated files from Remote repository
+
+- 
 
 
 - Git Conflicts
