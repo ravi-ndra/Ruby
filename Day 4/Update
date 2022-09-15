@@ -1,0 +1,11 @@
+Git commands
+    - merge 
+    - branch
+    - checkout
+    - push
+    
+Git Conflicts
+    - main reason of conflict occurence is modifying same directory/file 
+      in different branch and trying to merging it
+
+Made a Local repository , and pushed it to my Github
