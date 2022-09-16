@@ -93,3 +93,6 @@ OOPs
                                       - After freeze object can not be modified
                                       - to check if Object is forzen or not use : Object.forzen?
                 
+Date & Time
+    - Time class represents date and time 
+        
