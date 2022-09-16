@@ -1,23 +1,53 @@
-# use of method overloading in Inheritance
+class Box
+    def initialize(w,h)
+       @width, @height = w, h
+    end
+    def getWidth
+       @width
+    end
+    def getHeight
+       @height
+    end
+ 
+    def setWidth=(value)
+       @width = value
+    end
+    def setHeight=(value)
+       @height = value
+    end
+ end
+ 
+ box = Box.new(10, 20)
+ 
 
-class Sum
-    def sum(a)
-        puts "Sum : #{a}"
-    end
-    def sum(a,b)
-        puts "Sum : #{a+b}"
-    end
-    def sum(a,b,c)
-        puts "Sum : #{a+b+c}"
-    end
-    def sum(a,b,c,d)
-        puts "Sum : #{a+b+c+d}"
-    end
-end
+ if( box.frozen? )
+    puts "Box object is frozen object"
+ else
+    puts "Box object is normal object"
+ end
+ 
+ box.setWidth = 30
+ box.setHeight = 50
+ 
+ x = box.getWidth()
+ y = box.getHeight()
+ 
+ puts "Width of the box is : #{x}"
+ puts "Height of the box is : #{y}"
 
-s1 = Sum.new
-s1.sum(5)
-s1.sum(5,4)
-s1.sum(5,6,4)
-s1.sum(6,4,7,8)
+ box.freeze
 
+ if( box.frozen? )
+    puts "Box object is frozen object"
+ else
+    puts "Box object is normal object"
+ end
+ 
+ box.setWidth = 300
+ box.setHeight = 500
+ 
+ x = box.getWidth()
+ y = box.getHeight()
+ 
+ puts "Width of the box is : #{x}"
+ puts "Height of the box is : #{y}"

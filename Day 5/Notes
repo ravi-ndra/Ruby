@@ -88,4 +88,8 @@ OOPs
                         end
                 * Method Overriding : - Inheritance when both class have method with same name than the method 
                                         which is in derived class will override the method form parent class.
-                * Method Overloading: - 
+                * Freezzing objects : - when we don's want any object to be modified letter, freeze can be used
+                                      - To freeze object use : Object.freeze
+                                      - After freeze object can not be modified
+                                      - to check if Object is forzen or not use : Object.forzen?
+                
