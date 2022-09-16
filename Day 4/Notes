@@ -44,6 +44,3 @@ Git
     * To resolve conflict one can easily change the main falie which was modified 
       earlier and again add that file in and then after commiting try to merge tha branch
     * 
-
-  - Git Force Push 
-      *   
